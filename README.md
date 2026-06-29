@@ -1,24 +1,41 @@
-# Need Link Project
-
 ## 🚀 About the Project
-This project is a Full Stack web application:
 
-- Frontend: Bootstrap 5 UI
-- Backend: Laravel (PHP Framework)
+NeedLink is a service marketplace platform that connects users who need services with providers who can offer them.
+
+The system allows users to:
+- Create service requests
+- Receive offers from providers
+- Accept or reject offers
+- Track request status in real time (pending / in progress / completed)
 
 ---
 
 ## ⚙️ Features
-- User Login System (Laravel)
-- Responsive Bootstrap UI
-- Clean project structure
-- Ready for API integration
+
+- 🔐 User Authentication (Login / Register)
+- 🧾 Create Service Requests
+- 💼 Providers can submit offers
+- ✔ Users can accept or reject offers
+- 📊 Dashboard for tracking requests
+- 🔄 Status updates (Pending / In Progress / Completed)
+- 🎨 Responsive UI using Bootstrap / Blade templates
 
 ---
 
-## 📁 Structure
-frontend/
-backend/ (Laravel)
+## 📁 Project Structure
+
+app/
+├── Models/
+├── Http/
+│   ├── Controllers/
+resources/
+├── views/
+│   ├── auth/
+│   ├── dashboard/
+│   ├── main/
+routes/
+database/
+public/
 
 ---
 
