@@ -28,14 +28,16 @@ app/
 ├── Models/
 ├── Http/
 │   ├── Controllers/
-resources/
-├── views/
-│   ├── auth/
-│   ├── dashboard/
-│   ├── main/
-routes/
-database/
-public/
+│   └── Middleware/
+├── resources/
+│   ├── views/
+│   │   ├── auth/
+│   │   ├── dashboard/
+│   │   └── main/
+│   └── lang/
+├── routes/
+├── database/
+└── public/
 
 ---
 
